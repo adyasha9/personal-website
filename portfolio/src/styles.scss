@@ -1,0 +1,31 @@
+body{
+  overflow: hidden;
+  background-color: #FFFBEB;
+  color: #78350F;
+}
+.font-title {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+  .font-heading {
+    font-family: 'GrandSlang-Roman', serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .font-para {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+  }
+  
+  .title {
+    @extend .font-title;
+  }
+  
+  .para {
+    @extend .font-para;
+  }
+  .font-heading {
+    @extend .font-heading
+  }

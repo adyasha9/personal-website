@@ -9,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
+  downloadResume() {
+    console.log('button click')
+    const link = document.createElement('a');
+    link.href = 'assets/resume.pdf'; 
+    link.download = 'Adyasha_Resume.pdf';
+    link.click();
+  }
 }

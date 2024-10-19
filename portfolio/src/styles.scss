@@ -1,7 +1,19 @@
+.bg-page1 {
+  background-color: #57270b;
+  color: #fffbeb;
+}
+
+.bg-page2 {
+  background-color: #fffbeb;
+  color: #57270b;
+}
+
+body {
+  background-color: inherit;  // Inherit background color from app component
+  color: inherit;  // Inherit font color
+}
 body{
-  overflow: hidden;
-  background-color: #FFFBEB;
-  color: #78350F;
+  overflow-x: hidden;
 }
 .font-title {
   font-family: "Cedarville Cursive", cursive;

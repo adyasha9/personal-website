@@ -1,0 +1,32 @@
+
+.container {
+    display: flex;
+    padding: 120px 180px 50px 180px;
+    flex-direction: column;
+  }
+  .font-heading{
+    font-size: 150px;
+    margin: 0;
+  }
+  content {
+    margin: 0;
+    max-width: 300px; 
+    text-align: justify; 
+    font-size: 17px;
+    line-height: 2px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  a {
+    color: #FFFBEB;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: #FFFBEB;
+    text-decoration: underline; 
+  }

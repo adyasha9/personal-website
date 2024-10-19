@@ -1,6 +1,63 @@
 .container {
-    display: flex;
-    justify-content: space-between; /* Space between heading and nav */
-    align-items: flex-start; /* Align items at the top */
-    padding: 50px;
+  display: flex;
+  padding: 120px 180px 50px 180px;
+  flex-direction: column;
+}
+  .font-heading{
+    font-size: 150px;
+    margin: 0;
+  }
+  .font-subheading{
+    font-family: 'GrandSlang-Roman', serif;
+    font-size: 36px;
+    font-weight: 200;
+    width: 450px;
+  }
+  .headings{
+    font-family: 'GrandSlang-Roman', serif;
+    font-size: 20px;
+    font-weight: 100;
+    width: 450px;
+  }
+  ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+  }
+  
+  li {
+    font-size: 18px;
+    color: #57270b; /* Slightly lighter dark color */
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family: 'GrandSlang-Roman', serif;
+  }
+  
+  ul li:nth-child(odd) {
+    font-weight: bold; /* Highlight titles like "Bachelors in Engineering" and roles */
+  }
+  
+  ul li:nth-child(even) {
+    color: #7f8c8d; /* Lighter color for date ranges */
+  }
+  
+  li br {
+    margin-bottom: 5px;
+  }
+  
+  li:hover {
+    background-color: #ecf0f1; /* Light gray on hover */
+    border-radius: 5px;
+    padding: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .cv-button {
+    padding: 10px 10px;
+    border: none;
+    background-color: #57270b;
+    font-family: 'GrandSlang-Roman', serif;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 20px;
+    color: #fffbeb;
   }

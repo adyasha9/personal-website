@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  padding: 120px 180px 50px 180px;
+  padding: 50px 180px 50px 180px;
   flex-direction: column;
 }
   .font-heading{
@@ -25,10 +25,9 @@
   }
   
   li {
-    font-size: 18px;
-    color: #57270b; /* Slightly lighter dark color */
-    line-height: 1.6;
-    margin-bottom: 10px;
+    font-size: 15px;
+    color: #fa2742; /* Slightly lighter dark color */
+    line-height: 1;
   }
   h1{
     font-family: 'GrandSlang-Roman', serif;
@@ -37,31 +36,30 @@
   }
   
   ul li:nth-child(odd) {
-    font-weight: bold; /* Highlight titles like "Bachelors in Engineering" and roles */
+    font-weight: bold; 
   }
   
   ul li:nth-child(even) {
-    color: #7f8c8d; /* Lighter color for date ranges */
+    color: #7f8c8d; 
   }
   
-  li br {
-    margin-bottom: 5px;
-  }
-  
-  li:hover {
-    background-color: #ecf0f1; /* Light gray on hover */
-    border-radius: 5px;
-    padding: 5px;
-    transition: background-color 0.3s ease-in-out;
-  }
-
   .cv-button {
     padding: 10px 10px;
     border: none;
-    background-color: #57270b;
+    background-color: #fa2742;
     font-family: 'GrandSlang-Roman', serif;
     font-size: 20px;
     width: 150px;
     border-radius: 20px;
+    margin-top: auto;
     color: #fffbeb;
   }
+
+  .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; 
+  max-width: 1200px; 
+  overflow: hidden;
+}

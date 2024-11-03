@@ -20,15 +20,12 @@ export class AppComponent implements OnInit {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         // Change the entire body's background and font color based on the route
-        if (this.router.url.includes('/contact') || this.router.url.includes('/projects')) {
-          this.renderer.setStyle(document.body, 'backgroundColor', '#57270b');  // Contact page background
-          this.renderer.setStyle(document.body, 'color', '#fffbeb');  // Contact page font color
-        } else if (this.router.url.includes('/')) {
-          this.renderer.setStyle(document.body, 'backgroundColor', '#fffbeb');  // About page background
-          this.renderer.setStyle(document.body, 'color', '#57270b');  // About page font color
+        if (this.router.url.includes('/')) {
+          this.renderer.setStyle(document.body, 'backgroundColor', '#e8eae3');  // About page background
+          this.renderer.setStyle(document.body, 'color', '#373833');  // About page font color
         } else {
-          this.renderer.setStyle(document.body, 'backgroundColor', '#ffffff');  // Default background
-          this.renderer.setStyle(document.body, 'color', '#000000');  // Default font color
+          this.renderer.setStyle(document.body, 'backgroundColor', '#e8eae3');  // Default background
+          this.renderer.setStyle(document.body, 'color', '#373833');  // Default font color
         }
       }
     });

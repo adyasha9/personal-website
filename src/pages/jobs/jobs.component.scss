@@ -110,3 +110,34 @@ h1 {
   font-weight: 200;
   width: 450px;
 }
+
+a {
+  color: #373833;
+  text-decoration: none; 
+  transition: color 0.3s ease; 
+  cursor: pointer;
+}
+
+a:hover {
+  color: #373833;
+  text-decoration: line-through;
+}
+
+.home_nav {
+  color: #373833;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border: 0 solid #000;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity .3s;
+  position: relative;
+  right:580px;
+  top: 100px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg); 
+  cursor: pointer;
+}

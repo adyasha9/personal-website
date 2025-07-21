@@ -3,18 +3,19 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    // Other components...
   ],
   imports: [
-    BrowserModule, // Ensure this is imported
+    BrowserModule,
     CommonModule,
-    RouterModule.forRoot([]) // Your routes here
+    BrowserAnimationsModule, 
+    RouterModule.forRoot([]) 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
 export class AppModule { }

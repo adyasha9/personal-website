@@ -1,27 +1,70 @@
-# Portfolio
+🌟 Portfolio Website
+A modern and responsive personal portfolio built with Angular to showcase projects, skills, and achievements.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+🚀 Getting Started
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone 
+cd portfolio
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Run Development Server
+bash
+Copy
+Edit
+ng serve
+Your app will be running at http://localhost:4200/.
+The application will automatically reload when you make changes.
 
-## Development server
+✨ Features
+✅ Responsive Design for all screen sizes
+✅ Showcases Projects, Skills, and Experience
+✅ Built with Angular and TypeScript
+✅ Smooth navigation and modern UI
+✅ Easy customization for your own portfolio
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+📦 Build for Production
+bash
+Copy
+Edit
+ng build
+Build artifacts will be stored in the dist/ folder.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+bash
+Copy
+Edit
+ng e2e
+🛠 Tech Stack
+Angular
 
-## Build
+TypeScript
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+SCSS / CSS
 
-## Running unit tests
+HTML5
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+🎨 Customization
+Update assets/images with your photos
 
-## Running end-to-end tests
+Modify data files or components for your own projects and details
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Change theme colors in global styles
 
-## Further help
+🌍 Live Demo
+👉 https://adyasha9.github.io/personal-website/
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📌 Future Enhancements
+✅ Add a blog section
+
+✅ Integrate contact form with email service
+
+✅ Dark mode toggle
+
+🤝 Contributions
+Pull requests are welcome! Feel free to fork and create your own version
